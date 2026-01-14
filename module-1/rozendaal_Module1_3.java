@@ -5,7 +5,7 @@ Module 1, Module 1.3 Exercise
 This program calculates the energy required to heat a given mass of water from an initial temperature to a final temperature.
  */
 import java.util.Scanner;
-public class rozendaal_Module1_3 {
+public class Rozendaal_Module1_3 {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             // Get Inputs from user
