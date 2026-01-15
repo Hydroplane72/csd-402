@@ -23,4 +23,17 @@
 hs_err_pid*
 replay_pid*
 
-.vscode/*
+# Ignore all files in the .vscode folder
+vscode/*
+
+# Do not ignore these specific files
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Ignore other common files and directories
+node_modules/
+dist/
+env
