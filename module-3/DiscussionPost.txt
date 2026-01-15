@@ -1,0 +1,13 @@
+Topic: “Pass-by-value" vs. “Pass-by-reference”
+	Java is somewhat different from other languages in terms of "Pass-by-reference". When discussing the differences, I need to explain the distinction between ByValue and ByRef. When you pass by value, you are actually creating a copy of the value in memory and letting the function use the copied value throughout. Doing this, as a result, means changes to that value in a function do not persist once the function is exited. When you pass ByRef, you are actually passing the address in memory where the value is stored. Doing this allows you to change the value in the function, and once outside the function, the change can be seen. 
+	With that said, Java differs from other languages, such as C. Generally, languages automatically pass objects ByRef by default. In Java, the language actually creates a copy of the address to the variable location in memory when you pass an object into a function. The side effect of this is that if you set that object to a new object in the function, and then change a value to that object in the same function. The changes to the object will not be visible outside of that function in Java.
+
+	See the code example and results below for a practical example of what I am discussing.
+	
+
+Parameter Order
+	When it comes to parameter order, Java is very strict about the order you pass variables into a function. If you have a function that takes an integer and then a string. When calling that function, Java expects you to pass in the integer first and then the string, making Java different from other languages. For example, in C#, you can specify the parameters you pass into a function in whatever order you like. 
+	Personally, I prefer the approach Java takes to passing in parameter values to a function. My primary reason for this preference is that it simplifies future maintenance tasks, particularly for older tasks created 10 years or more ago, when the concept of code cleanliness was still in its infancy. If you have a function with 10 parameters, it is generally easier to refactor a function's parameters when everything that calls it follows the ordinal position of the function parameter definition. Once you start calling parameters out of order in C#, it becomes more difficult to add and/or remove parameters from a function.
+
+See the example below of how you can call parameters out of order in C #, where some parameters can be specified by ordinal position and others by name.
+

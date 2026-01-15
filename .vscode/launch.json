@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DiscussionPostPassByExamples",
+            "request": "launch",
+            "mainClass": "DiscussionPostPassByExamples",
+            "projectName": "csd-402_c2c025a6"
+        },
+        {
+            "type": "java",
+            "name": "PassByExamples",
+            "request": "launch",
+            "mainClass": "PassByExamples",
+            "projectName": "csd-402_c2c025a6"
+        },
+        {
+            "type": "java",
             "name": "rozendaal_Module1_3",
             "request": "launch",
             "mainClass": "rozendaal_Module1_3",
