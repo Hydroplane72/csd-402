@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShowPyramid",
+            "request": "launch",
+            "mainClass": "ShowPyramid",
+            "projectName": "csd-402_c2c025a6"
+        },
+        {
+            "type": "java",
+            "name": "RPCGame",
+            "request": "launch",
+            "mainClass": "RPCGame",
+            "projectName": "csd-402_c2c025a6"
+        },
+        {
+            "type": "java",
             "name": "DiscussionPostPassByExamples",
             "request": "launch",
             "mainClass": "DiscussionPostPassByExamples",
