@@ -11,7 +11,7 @@ Accessing and Modifying Attributes
 	With my rant about Attributes done ...
 
 	Modifying Attributes is done after a class has been instantiated into an object, and you are setting the class's Fields to specific values. Generally, it is considered a bad idea to modify an object's Attributes without first instantiating it. I encourage everyone to try it out anyway, mainly so they can get used to seeing the best error message in the world of "Object reference is null". I can't tell you how many times I've seen this message; it's come up so often over the years. 
-	Trying to access Attributes on objects that have not been instantiated yet also gives you either that lovely error message or, better yet, the absolute gem of a message: "Null value reference found". 
+	Trying to access Attributes on objects that have not been instantiated yet also gives you either that lovely error message or, better yet, the absolute gem of a message: "Null value reference found". Some languages may give you back "NullPointerException" errors for this issue instead.
 
 	Please note the sarcasm throughout this post. I just spent the last 7 hours before writing this debugging an issue in an ancient system that only gave me these messages to go by. Also, as a side note for anyone who's actually read this far, I recommend logging as much as possible about exceptions. Especially, make sure to include in your logs the stack trace where the exception occurred, not just the exception message.
 
