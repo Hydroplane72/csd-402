@@ -21,7 +21,8 @@ public class UseFans {
         // Display a single fan
         Fan.displayFan(fans[0]);
 
-        // Alternatively, using instance method to display a single fan
+        // Alternatively, using instance method to display a single fan.
+        // I personally just felt like demonstrating both ways of doing it.
         fans[1].displayFan();
     }
 
