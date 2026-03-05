@@ -1,0 +1,9 @@
+FlowPane (JavaFX 8). (2015, February 10). Oracle.com. https://docs.oracle.com/javase/8/javafx/api/javafx/scene/layout/FlowPane.html
+
+‌FlowPane (JavaFX 17). (2021). Openjfx.io. https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/layout/FlowPane.html
+
+‌HBox (JavaFX 23). (2024). Openjfx.io. https://openjfx.io/javadoc/23/javafx.graphics/javafx/scene/layout/HBox.html
+
+‌GeeksforGeeks. (2018, September 7). JavaFX | HBox Class. GeeksforGeeks. https://www.geeksforgeeks.org/java/javafx-hbox-class/
+
+‌
